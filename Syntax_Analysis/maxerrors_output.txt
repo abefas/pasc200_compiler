@@ -1,0 +1,509 @@
+
+[Line 1]
+
+KEYWORD -> PROGRAM
+
+Found token ID -> rty
+
+Found token ID -> try_it
+
+Found token SEMI -> ;
+
+[Line 2]
+
+KEYWORD -> CONST
+
+Found token ID -> g
+
+Found token EQU -> =
+
+ICONST FOUND: 11 (0B1011)
+
+[Line 3]
+
+KEYWORD -> TYPE
+
+Found token ID -> gar
+
+Found token EQU -> =
+
+ICONST FOUND: 1 (1)
+
+Found token DOTDOT -> ..
+
+Found token ID -> g
+
+Found token SEMI -> ;
+
+[Line 4]
+
+Found token ID -> ar
+
+Found token EQU -> =
+
+KEYWORD -> ARRAY
+
+Found token LBRACK -> [
+
+Found token ID -> gar
+
+Found token RBRACK -> ]
+
+KEYWORD -> OF
+
+KEYWORD -> INTEGER
+
+Found token SEMI -> ;
+
+[Line 5]
+
+Found token ID -> re
+
+Found token EQU -> =
+
+KEYWORD -> RECORD
+
+[Line 6]
+
+Found token ID -> x1
+
+Found token COMMA -> ,
+
+Found token ID -> x2
+
+Found token COLON -> :
+
+KEYWORD -> INTEGER
+
+Multiple line Comment!
+
+Found Comment
+
+[Line 8]
+
+KEYWORD -> END
+-------------- Scope 1  ---------------
+Name------------------ Value-----------
+x2                     (null)          
+x1                     (null)          
+---------- End of Scope 1  ------------
+
+
+Found token SEMI -> ;
+
+[Line 9]
+
+Found token ID -> ss
+
+Found token EQU -> =
+
+KEYWORD -> SET
+
+KEYWORD -> OF
+
+KEYWORD -> CHAR
+
+Found token SEMI -> ;
+
+[Line 10]
+
+Found token ID -> ilt
+
+Found token EQU -> =
+
+KEYWORD -> LIST
+
+KEYWORD -> OF
+
+KEYWORD -> INTEGER
+
+Found token SEMI -> ;
+
+[Line 11]
+
+KEYWORD -> VAR
+
+Found token ID -> x
+
+Found token COLON -> :
+
+Found token ID -> ar
+
+Found token SEMI -> ;
+
+Found token ID -> z
+
+Found token COMMA -> ,
+
+Found token ID -> w
+
+Found token COLON -> :
+
+KEYWORD -> REAL
+
+Found token SEMI -> ;
+
+Found token ID -> r
+
+Found token COLON -> :
+
+Found token ID -> re
+
+Found token SEMI -> ;
+
+Found token ID -> s
+
+Found token COLON -> :
+
+Found token ID -> ss
+
+Found token SEMI -> ;
+
+Found token ID -> t
+
+Found token COLON -> :
+
+Found token ID -> enum
+
+Found token SEMI -> ;
+
+Found token ID -> il
+
+Found token COLON -> :
+
+Found token ID -> ilt
+
+Found token SEMI -> ;
+
+[Line 12]
+
+KEYWORD -> PROCEDURE
+
+Found token ID -> all
+
+Found token LPAREN -> (
+
+Found token ID -> n
+
+Found token COLON -> :
+
+KEYWORD -> INTEGER
+
+Found token SEMI -> ;
+
+KEYWORD -> VAR
+
+Found token ID -> x
+
+Found token COLON -> :
+
+Found token ID -> ilt
+
+Found token RPAREN -> )
+
+Found token SEMI -> ;
+
+[Line 13]
+
+Found Comment
+
+[Line 14]
+
+KEYWORD -> FUNCTION
+
+ICONST FOUND: 2 (2)
+
+Found token ID -> _try_me
+
+Found token LPAREN -> (
+
+Found token ID -> i
+
+Found token COMMA -> ,
+
+Found token ID -> j
+
+Found token COLON -> :
+
+KEYWORD -> INTEGER
+
+Found token RPAREN -> )
+
+Found token COLON -> :
+
+KEYWORD -> REAL
+
+Found token SEMI -> ;
+
+[Line 15]
+
+Found Comment
+
+[Line 16]
+
+KEYWORD -> CONST
+
+Found token ID -> omega
+
+Found token EQU -> =
+
+Found CCONST -> W
+
+Found token SEMI -> ;
+
+Found token ID -> seira
+
+Found token EQU -> =
+
+Found token ADDOP -> -
+
+Found token ID -> g
+
+Found token MULDIVANDOP -> *
+
+RCONST FOUND: 3.141590 (.314159E1)
+
+Found token SEMI -> ;
+
+[Line 17]
+
+KEYWORD -> BEGIN
+
+[Line 18]
+
+KEYWORD -> IF
+
+Found token LPAREN -> (
+
+Found token ID -> i
+
+Found token ADDOP -> +
+
+Found token ID -> j
+
+Found token RELOP -> >
+
+Found token ID -> omega
+
+Found token RPAREN -> )
+
+KEYWORD -> THEN
+
+Found Comment
+
+Found token ID -> _try_me
+
+Found token ASSIGN -> :=
+
+RCONST FOUND: 0.000000 (0.0)
+
+Found Comment
+
+[Line 19]
+
+KEYWORD -> ELSE
+-------------- Scope 2  ---------------
+Name------------------ Value-----------
+_try_me                (null)          
+---------- End of Scope 2  ------------
+
+
+[Line 20]
+
+Found Comment
+
+[Line 21]
+
+KEYWORD -> IF
+
+Found token LPAREN -> (
+
+Found token ID -> i
+
+Found token RELOP -> >
+
+Found token ID -> omega
+
+Found token RPAREN -> )
+
+KEYWORD -> THEN
+
+Found Comment
+
+Found token ID -> _try_me
+
+Found token ASSIGN -> :=
+
+Found token ADDOP -> -
+
+RCONST FOUND: 1.000000 (1.0)
+
+Found Comment
+
+[Line 22]
+
+KEYWORD -> ELSE
+-------------- Scope 3  ---------------
+Name------------------ Value-----------
+_try_me                (null)          
+---------- End of Scope 3  ------------
+
+
+Found Comment
+
+Found token ID -> _try_me
+
+Found token ASSIGN -> :=
+
+RCONST FOUND: 1.000000 (1.0)
+
+Found Comment
+
+[Line 23]
+
+Found Comment
+
+[Line 24]
+
+KEYWORD -> END
+-------------- Scope 3  ---------------
+Name------------------ Value-----------
+_try_me                (null)          
+---------- End of Scope 3  ------------
+
+-------------- Scope 2  ---------------
+Name------------------ Value-----------
+omega                  (null)          
+i                      (null)          
+---------- End of Scope 2  ------------
+
+
+Found token SEMI -> ;
+-------------- Scope 1  ---------------
+Name------------------ Value-----------
+omega                  (null)          
+seira                  (null)          
+g                      (null)          
+i                      (null)          
+j                      (null)          
+---------- End of Scope 1  ------------
+
+
+[Line 25]
+
+Found Comment
+
+[Line 26]
+
+KEYWORD -> BEGIN
+
+[Line 27]
+
+KEYWORD -> IF
+
+Found token LPAREN -> (
+
+Found token ID -> n
+
+Found token RELOP -> <=
+
+ICONST FOUND: 0 (0)
+
+Found token RPAREN -> )
+
+KEYWORD -> THEN
+
+[Line 28]
+
+Found token ID -> x
+
+Found token ASSIGN -> :=
+
+KEYWORD -> NEW
+
+Found token LPAREN -> (
+
+ICONST FOUND: 0 (0)
+
+Found token RPAREN -> )
+
+Found Comment
+
+[Line 29]
+
+KEYWORD -> ELSE
+-------------- Scope 1  ---------------
+Name------------------ Value-----------
+x                      (null)          
+---------- End of Scope 1  ------------
+
+
+[Line 30]
+
+KEYWORD -> BEGIN
+
+[Line 31]
+
+Found token ID -> all
+
+Found token LPAREN -> (
+
+Found token ID -> _try_me
+
+Found token LPAREN -> (
+
+Found token ID -> n
+
+Found token ADDOP -> -
+
+ICONST FOUND: 1 (1)
+
+Found token COMMA -> ,
+
+Found token ID -> ar
+
+Found token LBRACK -> [
+
+Found token ID -> n
+
+Found token ADDOP -> +
+
+ICONST FOUND: 1 (1)
+
+Found token RBRACK -> ]
+
+Found token RPAREN -> )
+
+Found token COMMA -> ,
+
+Found token ID -> x
+
+Found token RPAREN -> )
+
+Found token SEMI -> ;
+
+[Line 32]
+Found LISTFUNC -> cdr
+Found token LPAREN -> (
+
+Found token ID -> x
+
+Found token ASSIGN -> :=
+
+KEYWORD -> NEW
+
+Found token LPAREN -> (
+
+Found token ADDOP -> -
+Found LISTFUNC -> car
+Found token LPAREN -> (
+
+Found token ID -> x
+
+Found token RPAREN -> )
+
+[Line 33]
+
+KEYWORD -> END
+
+Error count limit reached. Exiting...

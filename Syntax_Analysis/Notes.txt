@@ -1,0 +1,11 @@
+after 
+
+%nonassoc   T_INOP T_RELOP T_EQU
+%left       T_ADDOP T_OROP
+%left       T_MULDIVANDOP
+%left       T_DOT T_LBRACK T_RBRACK T_LPAREN T_RPAREN
+
+%nonassoc   LOWER_THAN_ELSE
+%nonassoc   T_ELSE
+
+We now have 7 shift/reduce conflicts

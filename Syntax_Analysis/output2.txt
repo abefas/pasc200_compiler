@@ -1,0 +1,1322 @@
+
+[Line 1]
+
+KEYWORD -> PROGRAM
+
+Found token ID -> try_it
+
+Found token SEMI -> ;
+
+[Line 2]
+
+KEYWORD -> CONST
+
+Found token ID -> g
+
+Found token EQU -> =
+
+ICONST FOUND: 11 (0B1011)
+
+Found token SEMI -> ;
+
+[Line 3]
+
+KEYWORD -> TYPE
+
+Found token ID -> ar
+
+Found token EQU -> =
+
+KEYWORD -> ARRAY
+
+Found token LBRACK -> [
+
+ICONST FOUND: 1 (1)
+
+Found token DOTDOT -> ..
+
+Found token ID -> g
+
+Found token RBRACK -> ]
+
+KEYWORD -> OF
+
+KEYWORD -> INTEGER
+
+Found token SEMI -> ;
+
+[Line 4]
+
+Found token ID -> ar1
+
+Found token EQU -> =
+
+KEYWORD -> ARRAY
+
+Found token LBRACK -> [
+
+ICONST FOUND: 1 (1)
+
+Found token DOTDOT -> ..
+
+Found token ID -> g
+
+Found token RBRACK -> ]
+
+KEYWORD -> OF
+
+KEYWORD -> REAL
+
+Found token SEMI -> ;
+
+[Line 5]
+
+Found token ID -> re
+
+Found token EQU -> =
+
+KEYWORD -> RECORD
+
+[Line 6]
+
+Found token ID -> x1
+
+Found token COMMA -> ,
+
+Found token ID -> x2
+
+Found token COLON -> :
+
+KEYWORD -> INTEGER
+
+Multiple line Comment!
+
+Found Comment
+
+[Line 8]
+
+KEYWORD -> END
+-------------- Scope 1  ---------------
+Name------------------ Value-----------
+x2                     (null)          
+x1                     (null)          
+---------- End of Scope 1  ------------
+
+
+Found token SEMI -> ;
+
+[Line 9]
+
+Found token ID -> re1
+
+Found token EQU -> =
+
+KEYWORD -> RECORD
+
+Found token ID -> b
+
+Found token COLON -> :
+
+KEYWORD -> BOOLEAN
+
+KEYWORD -> END
+-------------- Scope 1  ---------------
+Name------------------ Value-----------
+b                      (null)          
+---------- End of Scope 1  ------------
+
+
+Found token SEMI -> ;
+
+[Line 10]
+
+Found token ID -> gar
+
+Found token EQU -> =
+
+Found token ADDOP -> -
+
+Found token ID -> g
+
+Found token DOTDOT -> ..
+
+Found token ID -> g
+
+Found token SEMI -> ;
+
+[Line 11]
+
+Found token ID -> arre1
+
+Found token EQU -> =
+
+KEYWORD -> ARRAY
+
+Found token LBRACK -> [
+
+Found token ID -> gar
+
+Found token RBRACK -> ]
+
+KEYWORD -> OF
+
+Found token ID -> re1
+
+Found token SEMI -> ;
+
+[Line 12]
+
+Found token ID -> ilt
+
+Found token EQU -> =
+
+KEYWORD -> LIST
+
+KEYWORD -> OF
+
+KEYWORD -> INTEGER
+
+Found token SEMI -> ;
+
+[Line 13]
+
+KEYWORD -> VAR
+
+Found token ID -> x
+
+Found token COMMA -> ,
+
+Found token ID -> y
+
+Found token COLON -> :
+
+Found token ID -> ar
+
+Found token SEMI -> ;
+
+Found token ID -> xx
+
+Found token COLON -> :
+
+Found token ID -> ar1
+
+Found token SEMI -> ;
+
+Found token ID -> z
+
+Found token COMMA -> ,
+
+Found token ID -> w
+
+Found token COLON -> :
+
+KEYWORD -> REAL
+
+Found token SEMI -> ;
+
+Found token ID -> r
+
+Found token COLON -> :
+
+Found token ID -> re
+
+Found token SEMI -> ;
+
+[Line 14]
+
+Found token ID -> i
+
+Found token COMMA -> ,
+
+Found token ID -> j
+
+Found token COMMA -> ,
+
+Found token ID -> k
+
+Found token COLON -> :
+
+KEYWORD -> INTEGER
+
+Found token SEMI -> ;
+
+Found token ID -> b
+
+Found token COLON -> :
+
+Found token ID -> arre1
+
+Found token SEMI -> ;
+
+Found token ID -> il
+
+Found token COLON -> :
+
+Found token ID -> ilt
+
+Found token SEMI -> ;
+
+[Line 15]
+
+KEYWORD -> FUNCTION
+
+Found token ID -> try_me
+
+Found token LPAREN -> (
+
+Found token ID -> i
+
+Found token COMMA -> ,
+
+Found token ID -> j
+
+Found token COLON -> :
+
+KEYWORD -> INTEGER
+
+Found token RPAREN -> )
+
+Found token COLON -> :
+
+KEYWORD -> BOOLEAN
+
+Found token SEMI -> ;
+
+KEYWORD -> FORWARD
+
+Found token SEMI -> ;
+
+[Line 16]
+
+KEYWORD -> PROCEDURE
+
+Found token ID -> _all
+
+Found token LPAREN -> (
+
+Found token ID -> n
+
+Found token COLON -> :
+
+KEYWORD -> INTEGER
+
+Found token SEMI -> ;
+
+KEYWORD -> VAR
+
+Found token ID -> x
+
+Found token COLON -> :
+
+Found token ID -> ilt
+
+Found token RPAREN -> )
+
+Found token SEMI -> ;
+
+[Line 17]
+
+Found Comment
+
+[Line 18]
+
+KEYWORD -> FUNCTION
+
+Found token ID -> try_me
+
+Found token LPAREN -> (
+
+Found token ID -> i
+
+Found token COMMA -> ,
+
+Found token ID -> j
+
+Found token COLON -> :
+
+KEYWORD -> INTEGER
+
+Found token RPAREN -> )
+
+Found token COLON -> :
+
+KEYWORD -> REAL
+
+Found token SEMI -> ;
+
+Found Comment
+
+[Line 19]
+
+Found Comment
+
+[Line 20]
+
+KEYWORD -> CONST
+
+Found token ID -> omega
+
+Found token EQU -> =
+
+Found CCONST -> W
+
+Found token SEMI -> ;
+
+Found token ID -> int
+
+Found token EQU -> =
+
+Found token ID -> g
+
+Found token MULDIVANDOP -> div
+
+ICONST FOUND: 2 (2)
+
+Found token SEMI -> ;
+
+[Line 21]
+
+KEYWORD -> PROCEDURE
+
+Found token ID -> nested
+
+Found token LPAREN -> (
+
+KEYWORD -> VAR
+
+Found token ID -> i
+
+Found token COLON -> :
+
+KEYWORD -> INTEGER
+
+Found token RPAREN -> )
+
+Found token SEMI -> ;
+
+[Line 22]
+
+Found Comment
+
+[Line 23]
+
+KEYWORD -> VAR
+
+Found token ID -> k
+
+Found token COLON -> :
+
+KEYWORD -> INTEGER
+
+Found token SEMI -> ;
+
+[Line 24]
+
+KEYWORD -> BEGIN
+
+[Line 25]
+
+KEYWORD -> IF
+
+Found token ID -> xx
+
+Found token LBRACK -> [
+
+Found token ID -> i
+
+Found token RBRACK -> ]
+
+Found token RELOP -> >=
+
+RCONST FOUND: 0.000000 (0.0)
+
+KEYWORD -> THEN
+
+Found token ID -> k
+
+Found token ASSIGN -> :=
+
+KEYWORD -> LENGTH
+
+Found token LPAREN -> (
+
+Found token ID -> x
+
+Found token RPAREN -> )
+
+KEYWORD -> ELSE
+-------------- Scope 4  ---------------
+Name------------------ Value-----------
+x                      (null)          
+k                      (null)          
+---------- End of Scope 4  ------------
+
+
+Found token ID -> k
+
+Found token ASSIGN -> :=
+
+ICONST FOUND: 2 (2)
+
+Found token SEMI -> ;
+-------------- Scope 4  ---------------
+Name------------------ Value-----------
+k                      (null)          
+---------- End of Scope 4  ------------
+
+
+[Line 26]
+
+Found token ID -> x
+
+Found token ASSIGN -> :=
+
+Found token ID -> x
+
+Found token ADDOP -> +
+
+Found token ID -> k
+
+Found token SEMI -> ;
+
+[Line 27]
+
+Found token ID -> i
+
+Found token ASSIGN -> :=
+
+Found token ID -> k
+
+[Line 28]
+
+KEYWORD -> END
+
+Found token SEMI -> ;
+-------------- Scope 3  ---------------
+Name------------------ Value-----------
+x                      (null)          
+xx                     (null)          
+i                      (null)          
+k                      (null)          
+---------- End of Scope 3  ------------
+
+
+[Line 29]
+
+Found Comment
+
+[Line 30]
+
+KEYWORD -> BEGIN
+
+Found Comment
+
+[Line 31]
+
+Found token ID -> nested
+
+Found token LPAREN -> (
+
+Found token ID -> k
+
+Found token RPAREN -> )
+
+Found token SEMI -> ;
+
+[Line 32]
+
+KEYWORD -> IF
+
+Found token LPAREN -> (
+
+Found token ID -> i
+
+Found token ADDOP -> +
+
+Found token ID -> j
+
+Found token RELOP -> >
+
+Found token ID -> int
+
+Found token RPAREN -> )
+
+KEYWORD -> THEN
+
+Found Comment
+
+Found token ID -> try_me
+
+Found token ASSIGN -> :=
+
+RCONST FOUND: 0.000000 (0.0)
+
+Found Comment
+
+[Line 33]
+
+KEYWORD -> ELSE
+-------------- Scope 3  ---------------
+Name------------------ Value-----------
+try_me                 (null)          
+---------- End of Scope 3  ------------
+
+
+Found Comment
+
+[Line 34]
+
+KEYWORD -> IF
+
+Found token LPAREN -> (
+
+Found token ID -> i
+
+Found token RELOP -> >
+
+Found token ID -> int
+
+Found token RPAREN -> )
+
+KEYWORD -> THEN
+
+Found Comment
+
+Found token ID -> try_me
+
+Found token ASSIGN -> :=
+
+Found token ADDOP -> -
+
+RCONST FOUND: 1.000000 (1.0)
+
+Found Comment
+
+[Line 35]
+
+KEYWORD -> ELSE
+-------------- Scope 4  ---------------
+Name------------------ Value-----------
+try_me                 (null)          
+---------- End of Scope 4  ------------
+
+
+Found Comment
+
+Found token ID -> try_me
+
+Found token ASSIGN -> :=
+
+RCONST FOUND: 1.000000 (1.0)
+
+Found Comment
+
+[Line 36]
+
+Found Comment
+
+[Line 37]
+
+KEYWORD -> END
+-------------- Scope 4  ---------------
+Name------------------ Value-----------
+try_me                 (null)          
+---------- End of Scope 4  ------------
+
+-------------- Scope 3  ---------------
+Name------------------ Value-----------
+int                    (null)          
+i                      (null)          
+---------- End of Scope 3  ------------
+
+
+Found token SEMI -> ;
+-------------- Scope 2  ---------------
+Name------------------ Value-----------
+int                    (null)          
+omega                  (null)          
+nested                 (null)          
+g                      (null)          
+i                      (null)          
+j                      (null)          
+k                      (null)          
+---------- End of Scope 2  ------------
+
+
+Found Comment
+
+[Line 38]
+
+KEYWORD -> BEGIN
+
+Found Comment
+
+[Line 39]
+
+KEYWORD -> IF
+
+Found token LPAREN -> (
+
+Found token ID -> n
+
+Found token RELOP -> <=
+
+ICONST FOUND: 0 (0)
+
+Found token RPAREN -> )
+
+KEYWORD -> THEN
+
+[Line 40]
+
+Found token ID -> x
+
+Found token ASSIGN -> :=
+
+KEYWORD -> NEW
+
+Found token LPAREN -> (
+
+ICONST FOUND: 1 (1)
+
+Found token RPAREN -> )
+
+Found Comment
+
+[Line 41]
+
+KEYWORD -> ELSE
+-------------- Scope 2  ---------------
+Name------------------ Value-----------
+x                      (null)          
+---------- End of Scope 2  ------------
+
+
+[Line 42]
+
+KEYWORD -> BEGIN
+
+[Line 43]
+
+Found token ID -> _all
+
+Found token LPAREN -> (
+
+Found token ID -> try_me
+
+Found token LPAREN -> (
+
+Found token ID -> n
+
+Found token ADDOP -> -
+
+ICONST FOUND: 1 (1)
+
+Found token COMMA -> ,
+
+Found token ID -> y
+
+Found token LBRACK -> [
+
+Found token ID -> n
+
+Found token ADDOP -> +
+
+ICONST FOUND: 1 (1)
+
+Found token RBRACK -> ]
+
+Found token RPAREN -> )
+
+Found token COMMA -> ,
+
+Found token ID -> x
+
+Found token RPAREN -> )
+
+Found token SEMI -> ;
+
+[Line 44]
+Found LISTFUNC -> cdr
+Found token LPAREN -> (
+
+Found token ID -> x
+
+Found token RPAREN -> )
+
+Found token ASSIGN -> :=
+
+KEYWORD -> NEW
+
+Found token LPAREN -> (
+
+Found token ADDOP -> -
+Found LISTFUNC -> car
+Found token LPAREN -> (
+
+Found token ID -> x
+
+Found token RPAREN -> )
+
+Found token RPAREN -> )
+
+[Line 45]
+
+KEYWORD -> END
+-------------- Scope 2  ---------------
+Name------------------ Value-----------
+x                      (null)          
+n                      (null)          
+y                      (null)          
+try_me                 (null)          
+_all                   (null)          
+---------- End of Scope 2  ------------
+
+
+[Line 46]
+
+KEYWORD -> END
+
+Found token SEMI -> ;
+-------------- Scope 1  ---------------
+Name------------------ Value-----------
+n                      (null)          
+i                      (null)          
+try_me                 (null)          
+j                      (null)          
+---------- End of Scope 1  ------------
+
+
+Found Comment
+
+[Line 47]
+
+KEYWORD -> FUNCTION
+
+Found token ID -> try_me
+
+Found token SEMI -> ;
+
+[Line 48]
+
+Found Comment
+
+[Line 49]
+
+KEYWORD -> BEGIN
+
+[Line 50]
+
+Found token ID -> try_me
+
+Found token ASSIGN -> :=
+
+Found token ID -> i
+
+Found token EQU -> =
+
+Found token ID -> j
+
+Found token SEMI -> ;
+
+[Line 51]
+
+KEYWORD -> END
+
+Found token SEMI -> ;
+-------------- Scope 1  ---------------
+Name------------------ Value-----------
+i                      (null)          
+j                      (null)          
+try_me                 (null)          
+---------- End of Scope 1  ------------
+
+
+[Line 52]
+
+Found Comment
+
+[Line 53]
+
+KEYWORD -> PROCEDURE
+
+Found token ID -> kkk
+
+Found token SEMI -> ;
+
+[Line 54]
+
+Found Comment
+
+[Line 55]
+
+KEYWORD -> BEGIN
+
+[Line 56]
+
+KEYWORD -> WRITE
+
+Found token LPAREN -> (
+
+Found String -> Reached procedure kkk | TOKEN NUMBER: 292 | LINE: 56
+
+Found token RPAREN -> )
+
+Found token SEMI -> ;
+
+[Line 57]
+
+KEYWORD -> END
+
+Found token SEMI -> ;
+
+[Line 58]
+
+Found Comment
+
+[Line 59]
+
+KEYWORD -> BEGIN
+
+[Line 60]
+
+Found token ID -> b
+
+Found token LBRACK -> [
+
+Found token ID -> r
+
+Found token DOT -> .
+
+Found token ID -> x1
+
+Found token RBRACK -> ]
+
+Found token DOT -> .
+
+Found token ID -> b
+
+Found token ASSIGN -> :=
+
+Found token NOTOP -> not
+
+Found token LPAREN -> (
+
+Found token ID -> x
+
+Found token LBRACK -> [
+
+Found token ID -> r
+
+Found token DOT -> .
+
+Found token ID -> x1
+
+Found token RBRACK -> ]
+
+Found token RELOP -> >
+
+Found token ID -> x
+
+Found token LBRACK -> [
+
+Found token ID -> r
+
+Found token DOT -> .
+
+Found token ID -> x2
+
+Found token RBRACK -> ]
+
+Found token RPAREN -> )
+
+Found token MULDIVANDOP -> and
+
+Found token NOTOP -> not
+
+Found token ID -> try_me
+
+Found token LPAREN -> (
+
+ICONST FOUND: 2576 (0XA10)
+
+Found token COMMA -> ,
+
+Found token ID -> x
+
+Found token LBRACK -> [
+
+Found token ID -> j
+
+Found token RBRACK -> ]
+
+Found token RPAREN -> )
+
+Found token OROP -> or
+
+Found token LPAREN -> (
+
+Found token ID -> z
+
+Found token EQU -> =
+
+Found token ID -> k
+
+Found token MULDIVANDOP -> *
+
+ICONST FOUND: 3 (3)
+
+Found token RPAREN -> )
+
+Found token SEMI -> ;
+
+[Line 61]
+
+Found token ID -> il
+
+Found token ASSIGN -> :=
+
+Found token LBRACK -> [
+
+Found token ADDOP -> -
+
+ICONST FOUND: 1 (1)
+
+Found token COMMA -> ,
+
+ICONST FOUND: 9 (9)
+
+Found token COMMA -> ,
+
+ICONST FOUND: 0 (0)
+
+Found token COMMA -> ,
+
+ICONST FOUND: 3 (3)
+
+Found token RBRACK -> ]
+
+Found token SEMI -> ;
+
+[Line 62]
+
+KEYWORD -> WITH
+
+Found token ID -> r
+
+KEYWORD -> DO
+
+[Line 63]
+
+KEYWORD -> BEGIN
+
+[Line 64]
+
+Found token ID -> _all
+
+Found token LPAREN -> (
+
+Found token ADDOP -> -
+
+Found token ID -> y
+
+Found token LBRACK -> [
+
+Found token ID -> x
+
+Found token LBRACK -> [
+
+Found token ID -> x1
+
+Found token RBRACK -> ]
+
+Found token RBRACK -> ]
+
+Found token COMMA -> ,
+
+Found token ID -> il
+
+Found token RPAREN -> )
+
+Found token SEMI -> ;
+
+[Line 65]
+
+KEYWORD -> WITH
+
+Found token ID -> b
+
+Found token LBRACK -> [
+
+Found token ID -> x
+
+Found token LBRACK -> [
+
+Found token ID -> x2
+
+Found token RBRACK -> ]
+
+Found token RBRACK -> ]
+
+KEYWORD -> DO
+
+[Line 66]
+
+KEYWORD -> IF
+
+Found token LPAREN -> (
+
+Found token ID -> b
+
+Found token MULDIVANDOP -> and
+
+Found token LPAREN -> (
+
+Found token ID -> x1
+
+Found token RELOP -> >
+
+Found token ID -> y
+
+Found token LBRACK -> [
+
+Found token ID -> x1
+
+Found token MULDIVANDOP -> mod
+
+Found token ID -> k
+
+Found token RBRACK -> ]
+
+Found token RPAREN -> )
+
+Found token RPAREN -> )
+
+KEYWORD -> THEN
+
+Found token ID -> kkk
+
+Found token SEMI -> ;
+-------------- Scope 3  ---------------
+Name------------------ Value-----------
+kkk                    (null)          
+---------- End of Scope 3  ------------
+
+-------------- Scope 2  ---------------
+Name------------------ Value-----------
+y                      (null)          
+k                      (null)          
+b                      (null)          
+x1                     (null)          
+---------- End of Scope 2  ------------
+
+
+[Line 67]
+
+Found token ID -> x2
+
+Found token ASSIGN -> :=
+
+Found token ID -> x1
+
+Found token MULDIVANDOP -> div
+
+Found token ID -> k
+
+Found token SEMI -> ;
+
+[Line 68]
+
+KEYWORD -> END
+-------------- Scope 1  ---------------
+Name------------------ Value-----------
+x2                     (null)          
+x                      (null)          
+y                      (null)          
+il                     (null)          
+k                      (null)          
+b                      (null)          
+_all                   (null)          
+x1                     (null)          
+---------- End of Scope 1  ------------
+
+
+Found token SEMI -> ;
+
+[Line 69]
+
+KEYWORD -> FOR
+
+Found token ID -> i
+
+Found token ASSIGN -> :=
+
+ICONST FOUND: 1 (1)
+
+KEYWORD -> TO
+
+Found token ID -> x
+
+Found token LBRACK -> [
+
+Found token ID -> y
+
+Found token LBRACK -> [
+
+Found token ID -> g
+
+Found token RBRACK -> ]
+
+Found token RBRACK -> ]
+
+KEYWORD -> DO
+
+[Line 70]
+
+KEYWORD -> READ
+
+Found token LPAREN -> (
+
+Found token ID -> x
+
+Found token LBRACK -> [
+
+Found token ID -> i
+
+Found token RBRACK -> ]
+
+Found token COMMA -> ,
+
+Found token ID -> j
+
+Found token COMMA -> ,
+
+Found token ID -> y
+
+Found token LBRACK -> [
+
+Found token ID -> j
+
+Found token RBRACK -> ]
+
+Found token RPAREN -> )
+-------------- Scope 1  ---------------
+Name------------------ Value-----------
+x                      (null)          
+y                      (null)          
+i                      (null)          
+j                      (null)          
+---------- End of Scope 1  ------------
+
+
+Found token SEMI -> ;
+
+[Line 71]
+
+Found token ID -> y
+
+Found token ASSIGN -> :=
+
+Found token ID -> x
+
+Found token SEMI -> ;
+
+[Line 72]
+
+KEYWORD -> WITH
+
+Found token ID -> b
+
+Found token LBRACK -> [
+
+Found token ID -> i
+
+Found token RBRACK -> ]
+
+KEYWORD -> DO
+
+[Line 73]
+
+Found token ID -> b
+
+Found token ASSIGN -> :=
+
+Found token NOTOP -> not
+
+Found token ID -> b
+
+Found token MULDIVANDOP -> and
+
+Found token LPAREN -> (
+
+Found token ID -> r
+
+Found token DOT -> .
+
+Found token ID -> x2
+
+Found token EQU -> =
+
+ICONST FOUND: 0 (0)
+
+Found token RPAREN -> )
+
+Found token SEMI -> ;
+-------------- Scope 1  ---------------
+Name------------------ Value-----------
+x2                     (null)          
+r                      (null)          
+b                      (null)          
+---------- End of Scope 1  ------------
+
+
+[Line 74]
+
+KEYWORD -> WRITE
+
+Found token LPAREN -> (
+
+Found String -> endofprogram | TOKEN NUMBER: 292 | LINE: 74
+
+Found token RPAREN -> )
+
+[Line 75]
+
+KEYWORD -> END
+
+Found token DOT -> .
+
+[Line 76]
+
+Found token T_EOF -> 
+-------------- Scope 0  ---------------
+Name------------------ Value-----------
+x2                     (null)          
+n                      (null)          
+xx                     (null)          
+x                      (null)          
+ar1                    (null)          
+kkk                    (null)          
+y                      (null)          
+ar                     (null)          
+z                      (null)          
+il                     (null)          
+g                      (null)          
+r                      (null)          
+gar                    (null)          
+re1                    (null)          
+i                      (null)          
+arre1                  (null)          
+re                     (null)          
+try_me                 (null)          
+j                      (null)          
+k                      (null)          
+try_it                 (null)          
+_all                   (null)          
+b                      (null)          
+x1                     (null)          
+w                      (null)          
+ilt                    (null)          
+---------- End of Scope 0  ------------
+
+Syntax Analysis completed successfully

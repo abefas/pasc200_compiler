@@ -1,0 +1,1100 @@
+
+KEYWORD -> PROGRAM
+
+Found token ID -> try_it
+
+Found token SEMI -> ;
+
+[Line 2]
+
+KEYWORD -> CONST
+
+Found token ID -> g
+
+Found token EQU -> =
+
+ICONST FOUND: 11 (0B1011)
+
+Found token SEMI -> ;
+
+[Line 3]
+
+KEYWORD -> TYPE
+
+Found token ID -> ar
+
+Found token EQU -> =
+
+KEYWORD -> ARRAY
+
+Found token LBRACK -> [
+
+ICONST FOUND: 1 (1)
+
+Found token DOTDOT -> ..
+
+Found token ID -> g
+
+Found token RBRACK -> ]
+
+KEYWORD -> OF
+
+KEYWORD -> INTEGER
+
+Found token SEMI -> ;
+
+[Line 4]
+
+Found token ID -> ar1
+
+Found token EQU -> =
+
+KEYWORD -> ARRAY
+
+Found token LBRACK -> [
+
+ICONST FOUND: 1 (1)
+
+Found token DOTDOT -> ..
+
+Found token ID -> g
+
+Found token RBRACK -> ]
+
+KEYWORD -> OF
+
+KEYWORD -> REAL
+
+Found token SEMI -> ;
+
+[Line 5]
+
+Found token ID -> re
+
+Found token EQU -> =
+
+KEYWORD -> RECORD
+
+[Line 6]
+
+Found token ID -> x1
+
+Found token COMMA -> ,
+
+Found token ID -> x2
+
+Found token COLON -> :
+
+KEYWORD -> INTEGER
+
+Found Comment
+
+[Line 8]
+
+KEYWORD -> END
+
+Found token SEMI -> ;
+
+[Line 9]
+
+Found token ID -> re1
+
+Found token EQU -> =
+
+KEYWORD -> RECORD
+
+Found token ID -> b
+
+Found token COLON -> :
+
+KEYWORD -> BOOLEAN
+
+KEYWORD -> END
+
+Found token SEMI -> ;
+
+[Line 10]
+
+Found token ID -> gar
+
+Found token EQU -> =
+
+Found token ADDOP -> -
+
+Found token ID -> g
+
+Found token DOTDOT -> ..
+
+Found token ID -> g
+
+Found token SEMI -> ;
+
+[Line 11]
+
+Found token ID -> arre1
+
+Found token EQU -> =
+
+KEYWORD -> ARRAY
+
+Found token LBRACK -> [
+
+Found token ID -> gar
+
+Found token RBRACK -> ]
+
+KEYWORD -> OF
+
+Found token ID -> re1
+
+Found token SEMI -> ;
+
+[Line 12]
+
+Found token ID -> ilt
+
+Found token EQU -> =
+
+KEYWORD -> LIST
+
+KEYWORD -> OF
+
+KEYWORD -> INTEGER
+
+Found token SEMI -> ;
+
+[Line 13]
+
+KEYWORD -> VAR
+
+Found token ID -> x
+
+Found token COMMA -> ,
+
+Found token ID -> y
+
+Found token COLON -> :
+
+Found token ID -> ar
+
+Found token SEMI -> ;
+
+Found token ID -> xx
+
+Found token COLON -> :
+
+Found token ID -> ar1
+
+Found token SEMI -> ;
+
+Found token ID -> z
+
+Found token COMMA -> ,
+
+Found token ID -> w
+
+Found token COLON -> :
+
+KEYWORD -> REAL
+
+Found token SEMI -> ;
+
+Found token ID -> r
+
+Found token COLON -> :
+
+Found token ID -> re
+
+Found token SEMI -> ;
+
+[Line 14]
+
+Found token ID -> i
+
+Found token COMMA -> ,
+
+Found token ID -> j
+
+Found token COMMA -> ,
+
+Found token ID -> k
+
+Found token COLON -> :
+
+KEYWORD -> INTEGER
+
+Found token SEMI -> ;
+
+Found token ID -> b
+
+Found token COLON -> :
+
+Found token ID -> arre1
+
+Found token SEMI -> ;
+
+Found token ID -> il
+
+Found token COLON -> :
+
+Found token ID -> ilt
+
+Found token SEMI -> ;
+
+[Line 15]
+
+KEYWORD -> FUNCTION
+
+Found token ID -> try_me
+
+Found token LPAREN -> (
+
+Found token ID -> i
+
+Found token COMMA -> ,
+
+Found token ID -> j
+
+Found token COLON -> :
+
+KEYWORD -> INTEGER
+
+Found token RPAREN -> )
+
+Found token COLON -> :
+
+KEYWORD -> BOOLEAN
+
+Found token SEMI -> ;
+
+KEYWORD -> FORWARD
+
+Found token SEMI -> ;
+
+[Line 16]
+
+KEYWORD -> PROCEDURE
+
+Found token ID -> _all
+
+Found token LPAREN -> (
+
+Found token ID -> n
+
+Found token COLON -> :
+
+KEYWORD -> INTEGER
+
+Found token SEMI -> ;
+
+KEYWORD -> VAR
+
+Found token ID -> x
+
+Found token COLON -> :
+
+Found token ID -> ilt
+
+Found token RPAREN -> )
+
+Found token SEMI -> ;
+
+[Line 17]
+
+KEYWORD -> FUNCTION
+
+Found token ID -> try_me
+
+Found token LPAREN -> (
+
+Found token ID -> i
+
+Found token COMMA -> ,
+
+Found token ID -> j
+
+Found token COLON -> :
+
+KEYWORD -> INTEGER
+
+Found token RPAREN -> )
+
+Found token COLON -> :
+
+KEYWORD -> REAL
+
+Found token SEMI -> ;
+
+[Line 18]
+
+KEYWORD -> CONST
+
+Found token ID -> omega
+
+Found token EQU -> =
+
+Found CCONST -> 'W'
+
+Found token SEMI -> ;
+
+Found token ID -> int
+
+Found token EQU -> =
+
+Found token ID -> g
+
+Found token MULDIVANDOP -> div
+
+ICONST FOUND: 2 (2)
+
+Found token SEMI -> ;
+
+[Line 19]
+
+KEYWORD -> PROCEDURE
+
+Found token ID -> nested
+
+Found token LPAREN -> (
+
+KEYWORD -> VAR
+
+Found token ID -> i
+
+Found token COLON -> :
+
+KEYWORD -> INTEGER
+
+Found token RPAREN -> )
+
+Found token SEMI -> ;
+
+[Line 20]
+
+KEYWORD -> VAR
+
+Found token ID -> k
+
+Found token COLON -> :
+
+KEYWORD -> INTEGER
+
+Found token SEMI -> ;
+
+[Line 21]
+
+KEYWORD -> BEGIN
+
+[Line 22]
+
+KEYWORD -> IF
+
+Found token ID -> xx
+
+Found token LBRACK -> [
+
+Found token ID -> i
+
+Found token RBRACK -> ]
+
+Found token RELOP -> >=
+
+ICONST FOUND: 0 (0)
+
+RCONST FOUND: 0.000000 (.0)
+
+KEYWORD -> THEN
+
+Found token ID -> k
+
+Found token ASSIGN -> :=
+
+KEYWORD -> LENGTH
+
+Found token LPAREN -> (
+
+Found token ID -> x
+
+Found token RPAREN -> )
+
+KEYWORD -> ELSE
+
+Found token ID -> k
+
+Found token ASSIGN -> :=
+
+ICONST FOUND: 2 (2)
+
+Found token SEMI -> ;
+
+[Line 23]
+
+Found token ID -> x
+
+Found token ASSIGN -> :=
+
+Found token ID -> x
+
+Found token ADDOP -> +
+
+Found token ID -> k
+
+Found token SEMI -> ;
+
+[Line 24]
+
+Found token ID -> i
+
+Found token ASSIGN -> :=
+
+Found token ID -> k
+
+[Line 25]
+
+KEYWORD -> END
+
+Found token SEMI -> ;
+
+[Line 26]
+
+KEYWORD -> BEGIN
+
+[Line 27]
+
+Found token ID -> nested
+
+Found token LPAREN -> (
+
+Found token ID -> k
+
+Found token RPAREN -> )
+
+Found token SEMI -> ;
+
+[Line 28]
+
+KEYWORD -> IF
+
+Found token LPAREN -> (
+
+Found token ID -> i
+
+Found token ADDOP -> +
+
+Found token ID -> j
+
+Found token RELOP -> >
+
+Found token ID -> int
+
+Found token RPAREN -> )
+
+KEYWORD -> THEN
+
+Found token ID -> try_me
+
+Found token ASSIGN -> :=
+
+ICONST FOUND: 0 (0)
+
+RCONST FOUND: 0.000000 (.0)
+
+[Line 29]
+
+KEYWORD -> ELSE
+
+[Line 30]
+
+KEYWORD -> IF
+
+Found token LPAREN -> (
+
+Found token ID -> i
+
+Found token RELOP -> >
+
+Found token ID -> int
+
+Found token RPAREN -> )
+
+KEYWORD -> THEN
+
+Found token ID -> try_me
+
+Found token ASSIGN -> :=
+
+Found token ADDOP -> -
+
+RCONST FOUND: 1.000000 (1.0)
+
+[Line 31]
+
+KEYWORD -> ELSE
+
+Found token ID -> try_me
+
+Found token ASSIGN -> :=
+
+RCONST FOUND: 1.000000 (1.0)
+
+[Line 32]
+
+KEYWORD -> END
+
+Found token SEMI -> ;
+
+[Line 33]
+
+KEYWORD -> BEGIN
+
+[Line 34]
+
+KEYWORD -> IF
+
+Found token LPAREN -> (
+
+Found token ID -> n
+
+Found token RELOP -> <=
+
+ICONST FOUND: 0 (0)
+
+Found token RPAREN -> )
+
+KEYWORD -> THEN
+
+[Line 35]
+
+Found token ID -> x
+
+Found token ASSIGN -> :=
+
+KEYWORD -> NEW
+
+Found token LPAREN -> (
+
+ICONST FOUND: 1 (1)
+
+Found token RPAREN -> )
+
+Found Comment
+
+[Line 36]
+
+KEYWORD -> ELSE
+
+[Line 37]
+
+KEYWORD -> BEGIN
+
+[Line 38]
+
+Found token ID -> _all
+
+Found token LPAREN -> (
+
+Found token ID -> try_me
+
+Found token LPAREN -> (
+
+Found token ID -> n
+
+Found token ADDOP -> -
+
+ICONST FOUND: 1 (1)
+
+Found token COMMA -> ,
+
+Found token ID -> y
+
+Found token LBRACK -> [
+
+Found token ID -> n
+
+Found token ADDOP -> +
+
+ICONST FOUND: 1 (1)
+
+Found token RBRACK -> ]
+
+Found token RPAREN -> )
+
+Found token COMMA -> ,
+
+Found token ID -> x
+
+Found token RPAREN -> )
+
+Found token SEMI -> ;
+
+[Line 39]
+Found LISTFUNC -> cdr
+Found token LPAREN -> (
+
+Found token ID -> x
+
+Found token RPAREN -> )
+
+Found token ASSIGN -> :=
+
+KEYWORD -> NEW
+
+Found token LPAREN -> (
+
+Found token ADDOP -> -
+Found LISTFUNC -> car
+Found token LPAREN -> (
+
+Found token ID -> x
+
+Found token RPAREN -> )
+
+Found token RPAREN -> )
+
+[Line 40]
+
+KEYWORD -> END
+
+[Line 41]
+
+KEYWORD -> END
+
+Found token SEMI -> ;
+
+[Line 42]
+
+KEYWORD -> FUNCTION
+
+Found token ID -> try_me
+
+Found token SEMI -> ;
+
+[Line 43]
+
+KEYWORD -> BEGIN
+
+[Line 44]
+
+Found token ID -> try_me
+
+Found token ASSIGN -> :=
+
+Found token ID -> i
+
+Found token EQU -> =
+
+Found token ID -> j
+
+Found token SEMI -> ;
+
+[Line 45]
+
+KEYWORD -> END
+
+Found token SEMI -> ;
+
+[Line 46]
+
+KEYWORD -> PROCEDURE
+
+Found token ID -> kkk
+
+Found token SEMI -> ;
+
+[Line 47]
+
+KEYWORD -> BEGIN
+
+[Line 48]
+
+KEYWORD -> WRITE
+
+Found token LPAREN -> (
+
+SCONST -> Reached procedure kkk
+
+Found token RPAREN -> )
+
+Found token SEMI -> ;
+
+[Line 49]
+
+KEYWORD -> END
+
+Found token SEMI -> ;
+
+[Line 50]
+
+KEYWORD -> BEGIN
+
+[Line 51]
+
+Found token ID -> b
+
+Found token LBRACK -> [
+
+Found token ID -> r
+
+Found token DOT -> .
+
+Found token ID -> x1
+
+Found token RBRACK -> ]
+
+Found token DOT -> .
+
+Found token ID -> b
+
+Found token ASSIGN -> :=
+
+Found token NOTOP -> not
+
+Found token LPAREN -> (
+
+Found token ID -> x
+
+Found token LBRACK -> [
+
+Found token ID -> r
+
+Found token DOT -> .
+
+Found token ID -> x1
+
+Found token RBRACK -> ]
+
+Found token RELOP -> >
+
+Found token ID -> x
+
+Found token LBRACK -> [
+
+Found token ID -> r
+
+Found token DOT -> .
+
+Found token ID -> x2
+
+Found token RBRACK -> ]
+
+Found token RPAREN -> )
+
+Found token MULDIVANDOP -> and
+
+Found token NOTOP -> not
+
+Found token ID -> try_me
+
+Found token LPAREN -> (
+
+ICONST FOUND: 2576 (0XA10)
+
+Found token COMMA -> ,
+
+Found token ID -> x
+
+Found token LBRACK -> [
+
+Found token ID -> j
+
+Found token RBRACK -> ]
+
+Found token RPAREN -> )
+
+Found token OROP -> or
+
+Found token LPAREN -> (
+
+Found token ID -> z
+
+Found token EQU -> =
+
+Found token ID -> k
+
+Found token MULDIVANDOP -> *
+
+ICONST FOUND: 3 (3)
+
+Found token RPAREN -> )
+
+Found token SEMI -> ;
+
+[Line 52]
+
+Found token ID -> il
+
+Found token ASSIGN -> :=
+
+Found token LBRACK -> [
+
+Found token ADDOP -> -
+
+ICONST FOUND: 1 (1)
+
+Found token COMMA -> ,
+
+ICONST FOUND: 9 (9)
+
+Found token COMMA -> ,
+
+ICONST FOUND: 0 (0)
+
+Found token COMMA -> ,
+
+ICONST FOUND: 3 (3)
+
+Found token RBRACK -> ]
+
+Found token SEMI -> ;
+
+[Line 53]
+
+KEYWORD -> WITH
+
+Found token ID -> r
+
+KEYWORD -> DO
+
+[Line 54]
+
+KEYWORD -> BEGIN
+
+[Line 55]
+
+Found token ID -> _all
+
+Found token LPAREN -> (
+
+Found token ADDOP -> -
+
+Found token ID -> y
+
+Found token LBRACK -> [
+
+Found token ID -> x
+
+Found token LBRACK -> [
+
+Found token ID -> x1
+
+Found token RBRACK -> ]
+
+Found token RBRACK -> ]
+
+Found token COMMA -> ,
+
+Found token ID -> il
+
+Found token RPAREN -> )
+
+Found token SEMI -> ;
+
+[Line 56]
+
+KEYWORD -> WITH
+
+Found token ID -> b
+
+Found token LBRACK -> [
+
+Found token ID -> x
+
+Found token LBRACK -> [
+
+Found token ID -> x2
+
+Found token RBRACK -> ]
+
+Found token RBRACK -> ]
+
+KEYWORD -> DO
+
+[Line 57]
+
+KEYWORD -> IF
+
+Found token LPAREN -> (
+
+Found token ID -> b
+
+Found token MULDIVANDOP -> and
+
+Found token LPAREN -> (
+
+Found token ID -> x1
+
+Found token RELOP -> >
+
+Found token ID -> y
+
+Found token LBRACK -> [
+
+Found token ID -> x1
+
+Found token MULDIVANDOP -> mod
+
+Found token ID -> k
+
+Found token RBRACK -> ]
+
+Found token RPAREN -> )
+
+Found token RPAREN -> )
+
+KEYWORD -> THEN
+
+Found token ID -> kkk
+
+Found token SEMI -> ;
+
+[Line 58]
+
+Found token ID -> x2
+
+Found token ASSIGN -> :=
+
+Found token ID -> x1
+
+Found token MULDIVANDOP -> div
+
+Found token ID -> k
+
+Found token SEMI -> ;
+
+[Line 59]
+
+KEYWORD -> END
+
+Found token SEMI -> ;
+
+[Line 60]
+
+KEYWORD -> FOR
+
+Found token ID -> i
+
+Found token ASSIGN -> :=
+
+ICONST FOUND: 1 (1)
+
+KEYWORD -> TO
+
+Found token ID -> x
+
+Found token LBRACK -> [
+
+Found token ID -> y
+
+Found token LBRACK -> [
+
+Found token ID -> g
+
+Found token RBRACK -> ]
+
+Found token RBRACK -> ]
+
+KEYWORD -> DO
+
+[Line 61]
+
+KEYWORD -> READ
+
+Found token LPAREN -> (
+
+Found token ID -> x
+
+Found token LBRACK -> [
+
+Found token ID -> i
+
+Found token RBRACK -> ]
+
+Found token COMMA -> ,
+
+Found token ID -> j
+
+Found token COMMA -> ,
+
+Found token ID -> y
+
+Found token LBRACK -> [
+
+Found token ID -> j
+
+Found token RBRACK -> ]
+
+Found token RPAREN -> )
+
+Found token SEMI -> ;
+
+[Line 62]
+
+Found token ID -> y
+
+Found token ASSIGN -> :=
+
+Found token ID -> x
+
+Found token SEMI -> ;
+
+[Line 63]
+
+KEYWORD -> WITH
+
+Found token ID -> b
+
+Found token LBRACK -> [
+
+Found token ID -> i
+
+Found token RBRACK -> ]
+
+KEYWORD -> DO
+
+[Line 64]
+
+Found token ID -> b
+
+Found token ASSIGN -> :=
+
+Found token NOTOP -> not
+
+Found token ID -> b
+
+Found token MULDIVANDOP -> and
+
+Found token LPAREN -> (
+
+Found token ID -> r
+
+Found token DOT -> .
+
+Found token ID -> x2
+
+Found token EQU -> =
+
+ICONST FOUND: 0 (0)
+
+Found token RPAREN -> )
+
+Found token SEMI -> ;
+
+[Line 65]
+
+KEYWORD -> WRITE
+
+Found token LPAREN -> (
+
+SCONST -> endofprogram
+
+Found token RPAREN -> )
+
+[Line 66]
+
+KEYWORD -> END
+
+Found token DOT -> .
+
+[Line 67]
+
+EOF
